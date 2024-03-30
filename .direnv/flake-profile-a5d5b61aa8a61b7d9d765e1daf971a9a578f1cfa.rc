@@ -41,7 +41,7 @@ NIX_ENFORCE_NO_NATIVE='1'
 export NIX_ENFORCE_NO_NATIVE
 NIX_HARDENING_ENABLE='bindnow format fortify fortify3 pic relro stackprotector strictoverflow'
 export NIX_HARDENING_ENABLE
-NIX_LDFLAGS='-rpath /bigssd/Dokumente/git/opengl_c/outputs/out/lib  -L/nix/store/xlvl7fbjw4rqbrhj4bh6ccxg4j1735yp-glfw-3.3.10/lib -L/nix/store/l5wrnffddhbwkl82d7646w7riznxgrb8-libGL-1.7.0/lib -L/nix/store/lpqy1z1h8li6h3cp9ax6vifl71dks1ff-libglvnd-1.7.0/lib -L/nix/store/5khpmv9bwqhwam4p7nxhxzikpixa7cdg-glu-9.0.3/lib -L/nix/store/5cbh1y0v3m0bc21a5qimhf1xav60dkdd-glew-2.2.0/lib -L/nix/store/xlvl7fbjw4rqbrhj4bh6ccxg4j1735yp-glfw-3.3.10/lib -L/nix/store/l5wrnffddhbwkl82d7646w7riznxgrb8-libGL-1.7.0/lib -L/nix/store/lpqy1z1h8li6h3cp9ax6vifl71dks1ff-libglvnd-1.7.0/lib -L/nix/store/5khpmv9bwqhwam4p7nxhxzikpixa7cdg-glu-9.0.3/lib -L/nix/store/5cbh1y0v3m0bc21a5qimhf1xav60dkdd-glew-2.2.0/lib'
+NIX_LDFLAGS='-rpath /bigssd/Dokumente/git/raycaster/outputs/out/lib  -L/nix/store/xlvl7fbjw4rqbrhj4bh6ccxg4j1735yp-glfw-3.3.10/lib -L/nix/store/l5wrnffddhbwkl82d7646w7riznxgrb8-libGL-1.7.0/lib -L/nix/store/lpqy1z1h8li6h3cp9ax6vifl71dks1ff-libglvnd-1.7.0/lib -L/nix/store/5khpmv9bwqhwam4p7nxhxzikpixa7cdg-glu-9.0.3/lib -L/nix/store/5cbh1y0v3m0bc21a5qimhf1xav60dkdd-glew-2.2.0/lib -L/nix/store/xlvl7fbjw4rqbrhj4bh6ccxg4j1735yp-glfw-3.3.10/lib -L/nix/store/l5wrnffddhbwkl82d7646w7riznxgrb8-libGL-1.7.0/lib -L/nix/store/lpqy1z1h8li6h3cp9ax6vifl71dks1ff-libglvnd-1.7.0/lib -L/nix/store/5khpmv9bwqhwam4p7nxhxzikpixa7cdg-glu-9.0.3/lib -L/nix/store/5cbh1y0v3m0bc21a5qimhf1xav60dkdd-glew-2.2.0/lib'
 export NIX_LDFLAGS
 NIX_NO_SELF_RPATH='1'
 NIX_STORE='/nix/store'
@@ -133,7 +133,7 @@ name='nix-shell-env'
 export name
 nativeBuildInputs=''
 export nativeBuildInputs
-out='/bigssd/Dokumente/git/opengl_c/outputs/out'
+out='/bigssd/Dokumente/git/raycaster/outputs/out'
 export out
 outputBin='out'
 outputDev='out'
@@ -164,7 +164,7 @@ preConfigurePhases=' updateAutotoolsGnuConfigScriptsPhase'
 declare -a preFixupHooks=('_moveToShare' '_multioutDocs' '_multioutDevs' )
 preferLocalBuild='1'
 export preferLocalBuild
-prefix='/bigssd/Dokumente/git/opengl_c/outputs/out'
+prefix='/bigssd/Dokumente/git/raycaster/outputs/out'
 declare -a propagatedBuildDepFiles=('propagated-build-build-deps' 'propagated-native-build-inputs' 'propagated-build-target-deps' )
 propagatedBuildInputs=''
 export propagatedBuildInputs
