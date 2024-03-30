@@ -50,7 +50,7 @@ void init(GLFWwindow *window) {
 int main() {
   glewExperimental = true; // needed for core profile
   if (!glfwInit()) {
-    fprintf(stderr, "Flaled to initialize GLFW\n");
+    fprintf(stderr, "Failed to initialize GLFW\n");
     return -1;
   }
   glfwWindowHint(GLFW_SAMPLES, 4); // 4x antialiasing
@@ -67,7 +67,6 @@ int main() {
     return -1;
   }
   glfwMakeContextCurrent(window);
-  glewExperimental = true;
   if (glewInit() != GLEW_OK) {
     fprintf(stderr, "Failed to initialize GLEW\n");
     return -1;
