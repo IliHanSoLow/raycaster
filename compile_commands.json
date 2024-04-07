@@ -1,8 +1,1 @@
-[
-{
-  "directory": "/bigssd/Dokumente/git/raycaster",
-  "command": "/nix/store/kvlhk0gpm2iz1asbw1xjac2ch0r8kyw9-gcc-wrapper-13.2.0/bin/gcc  -I/bigssd/Dokumente/git/raycaster/include  -Wall -Wextra -o CMakeFiles/main.dir/src/main.c.o -c /bigssd/Dokumente/git/raycaster/src/main.c",
-  "file": "/bigssd/Dokumente/git/raycaster/src/main.c",
-  "output": "CMakeFiles/main.dir/src/main.c.o"
-}
-]
+build/compile_commands.json
