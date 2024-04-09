@@ -18,6 +18,7 @@
             buildInputs = [
               glfw
               glew
+              cglm
             ];
           };
         }
